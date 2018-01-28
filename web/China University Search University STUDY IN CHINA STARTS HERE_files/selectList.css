@@ -1,0 +1,112 @@
+.clear{clear:both;height:0;overflow:hidden;display:block;}
+.clearfix:after{clear:both;height:0;overflow:hidden;display:block;visibility:hidden;content:".";}
+.left{float:left;}
+.right{float:right;}
+.hidden{display:none;}
+.display{ display :block!important;}
+.none{display:none}
+.radius{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;behavior: url(pie.htc);}
+.azen-selectList{border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8;}
+.azen-selectList a:hover,.azen-selectList a.selected{ background:#39c; color:#FFF;height: 24px; padding: 0 8px;  }
+.azen-selectList dl{border-bottom:1px dashed #eee; padding:10px 1px; position:relative;}
+.azen-selectList dt{ width:128px; float:left; font-weight:bold; color:#666;text-align:right;}
+.azen-selectList dd{float:left;  margin:0; width:800px; text-align:justify;}
+.azen-selectList dd a {border-radius: 2px; color: #039; display: inline-block; height: 24px; padding: 0 8px; text-decoration: none; white-space: nowrap; line-height:24px;}
+.azen-selectList span{ }
+.phoneType span{width:80px; display:inline-block}
+.hasBeenSelected{ float:left;}
+.hasBeenSelected div{ border:1px solid #f90; border-radius:2px; padding:3px 17px 4px 7px; margin:0 10px 0 0; height:17px; line-height:17px; float:left; position:relative;}
+.hasBeenSelected div em{ background:url(../img/close/close.gif) no-repeat; width:13px; height:13px; position:absolute; right:0; top:10px; display:block; cursor:pointer}
+.eliminateCriteria{color: #FF6600;cursor: pointer;float: left;font-weight: 600;line-height: 21px;margin-top: 4px;width: 80px;}
+.azen-selectList .bh-co-citys {width:754px; margin-left:138px;  border:1px solid #e7e7e7; margin-top:10px; margin-bottom:10px; padding:8px; box-shadow:0 0 5px rgba(0, 0, 0, 0.1);}
+.bh-co-citys a {padding:0 8px;}
+.azen-selectList .azne-potion a {width:auto;padding:0 10px;}
+.azen-selectList .azne-potion a:hover {width:auto;padding:0 10px;}
+.azen-selectList .bh-co-citys a {border-radius: 2px; color: #039; display: inline-block; height: 24px; line-height: 24px; padding: 0 10px; text-decoration: none; white-space: nowrap;}
+.azen-selectList .bh-co-citys a:hover {color:#fff;}
+.azen-selectList .bh-co-selects .more {cursor:pointer; position:relative; top:-2px;left:128px; float:left; color:#666; font-size:12px;}
+.azen-selectList .bh-co-selects .open {width:18px; height:18px; display:inline-block; float:right; background:url(../default/img/class/more.png) 1px 3px no-repeat ;}
+
+.bh-co-selects {padding:10px 0;}
+.azen-clerwidth dd {width:auto;}
+.new-co-Viewed { width:754px; padding-top:5px; padding-bottom:10px;}
+.new-co-Viewed  .bh-co-Viewed { border-radius:3px; float:right; }
+.new-co-Viewed  .bh-co-Viewed ul{margin:0;padding:0;}
+.new-co-Viewed  .bh-co-Viewed ul li {padding:0; line-height:24px; width:60px; float:left; border-right:none; border-radius:2px; padding-right:10px; margin-bottom:0; }
+.new-co-Viewed  .bh-co-Viewed ul li:hover{background-color:#fefefe; border-radius:3px; }
+.new-co-Viewed  .bh-co-Viewed a {background:url("../img/icon/sup.png") no-repeat right; color:#333; float:left; padding:0 10px; border-radius:2px;}
+.new-co-Viewed  .bh-co-Viewed a:hover {background-position:right;}
+
+.new-co-Viewed .bh-co-Viewed ul  .Add-clearborder {border-right:1px solid #ddd;}
+.new-Relation {float:left;}
+.new-Relation a {font-size:16px; color:#444; padding-right:5px;}
+
+
+/* lunbo  new-banner  2015 1 23*/
+.bh-se-advert .tabbox {width:233px; height:370px; }
+.bh-se-advert .slide {width:233px; height:370px; }
+.bh-se-advert .slide-ul li {width:233px; height:370px; border:none; padding:0; }
+.bh-se-advert .slide-ul a {width:233px; height:370px; }
+.bh-se-advert .slide-ul li a img {width:233px; height:370px; }
+.bh-se-advert .slide-ul li a img {width:233px; height:370px; }
+.bh-se-advert .info-btn {width:160px; height:22px; padding-left:74px; }
+
+
+
+
+
+/* 搜索筛选属性js效果 修改 */
+#bh-new-conters {height:42px;border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8;}
+.bh-new-topmenu li,.bh-new-topmenu strong.icon_arr,.bh-new-topmenu li.weibo strong,.bh-new-topmenu li.weixin strong,.bh-new-topmenu .wxht{background:url(../default/img/icon/bh-new-topmenu.gif) no-repeat;}
+
+.bh-new-topmenu{line-height:22px;color:#333; margin-left:17px;}
+.bh-new-topmenu li{float:left;position:relative; margin-right:26px; display:inline-block; }
+.bh-new-topmenu strong{display:block;position:relative;height:26px; line-height:26px; padding:0 10px;font-weight:normal;cursor:default;z-index:20; border:1px solid #dcdcdc; border-radius:2px;}
+.bh-new-topmenu .bh-new-hovers{display:none;position:absolute;left:0;top:40px;padding:10px;border:1px solid #dcdcdc;background:#fff;z-index:10;}
+.bh-new-topmenu li.hover strong{border:1px solid #dcdcdc;border-bottom:none;background-color:#fff; margin-right:26px;  height:40px; overflow:hidden; z-index:2; }
+.bh-new-topmenu li.hover{margin:0;}
+.bh-new-topmenu li.htphone{_width:83px;}
+.bh-new-topmenu li.htphone .bh-new-hovers{width:71px;padding:1px 5px 0;}
+.bh-new-topmenu .htphonebox{padding:5px;border-top:1px solid #f3f3f3;}
+.bh-new-topmenu strong.icon_arr{padding-right:23px;background-position:right 3px; background-color:#fff;}
+.bh-new-topmenu li.hover strong.icon_arr{background-position:right -40px;}
+.bh-new-topmenu li.weibo{_width:65px;}
+.bh-new-topmenu li.weibo strong{padding-left:29px;background-position:0 -75px;}
+.bh-new-topmenu li.weibo .bh-new-hovers{width:250px;}
+.bh-new-topmenu li.weixin{_width:66px;}
+.bh-new-topmenu li.weixin strong{padding-left:30px;background-position:0 -46px;}
+.bh-new-topmenu li.webnav{_width:83px;}
+.bh-new-topmenu li.webnav .bh-new-hovers{width:600px;left:0; z-index:1; box-shadow:1px 1px 5px #ddd;}
+.bh-new-topmenu li.webnav .bh-new-hovers2{width:220px;left:0;}
+.bh-new-topmenu li.webnav .bh-new-hovers3{width:248px;left:0;}
+.bh-new-topmenu li.webnav .bh-new-hovers4{width:478px;left:-165px;}
+.bh-new-topmenu li.webnav .bh-new-hovers5{width:490px;left:-390px; }
+.bh-new-topmenu li.webnav .bh-new-hovers6{width:500px;left:0; }
+.bh-new-topmenu li.qxpp{background:none;}
+.bh-new-topmenu li.qxpp .bh-new-hovers{width:160px;left:-99px;}
+.bh-new-hovers a{color:#666; padding:0 5px; display:inline-block; float:left;}
+.bh-new-hovers a:hover{color:#f90; padding:0 5px;}
+.bh-new-conterion {width:1040px;}
+
+.bh-new-topmenu li.nojq{margin:0;background:none;}
+.bh-new-topmenu .focusht{display:block;width:155px;height:50px;background-position:0 -106px;text-indent:-100em;overflow:hidden;}
+.bh-new-topmenu .wxht{height:72px;width:80px;padding-left:80px;background-position:0 -177px;}
+.bh-new-topmenu .wxht span{display:inline-block;padding-top:3px;color:#666;}
+.aSty01{margin:0;}
+.aSty01 dt{margin-top:6px;padding:5px 0 2px 0;border-top:1px solid #e5e5e5;}
+.aSty01 dd{margin:0;}
+.aSty01 dd a{color:#666;}
+.aSty01 dd a:hover{color:#c00;}
+.bh-new-topmenu i {float:left; font-style:normal; position:absolute; left:-27px;}
+.bh-new-topmenu .bh-new-clears {background:none; margin-right:5px; font-weight:600; border:none;color:#444; line-height:25px;}
+.bh-new-topmenu .bh-new-clears:hover {background:none; margin-right:5px; border:none;}
+
+
+
+.bh-se-round .bh-new-topmenu li {border:none;}
+.bh-se-round .bh-new-topmenu {padding-top:0;}
+
+/* 学校搜索 筛选属性 修改 css*/
+.bh-new-conertion {border-bottom:1px solid #ccc; width:993px; }
+.bh-new-univerion {margin-bottom:10px; border-bottom:1px solid #ccc;}
+.bh-new-Chinaion h2 {float:left; font-size:22px; font-weight:normal; padding-right:20px; line-height:22px; color:#406496;}

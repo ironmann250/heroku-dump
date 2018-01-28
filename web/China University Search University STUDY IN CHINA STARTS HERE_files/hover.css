@@ -1,0 +1,92 @@
+#test1 {
+    cursor:pointer;
+}
+.mod_list_city a {
+    color: #325e7f;
+}
+.mod_list_city a:link, .mod_list_city a:visited {
+    text-decoration: none;
+}
+.mod_list_city a:hover, .mod_list_city a:active {
+    text-decoration: underline;
+}
+.mod_list_city {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    display: none;
+    font-family: Microsoft YaHei,Verdana,arial0;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: 550px;
+    z-index: 9999;
+    border-radius:4px;
+}
+.mod_list_city .city_top {
+    border-bottom: 1px solid #cccccc;
+    height: 25px;
+    line-height: 25px;
+}
+.mod_list_city .city_top strong {
+    display: inline;
+    float: left;
+    text-align: left;
+}
+.mod_list_city .city_top p {
+    display: inline;
+    float: right;
+    text-align: right;
+    width: 460px;
+}
+.mod_list_city a {
+    color: #325e7f;
+    margin-right: 3px;
+    padding: 2px;
+}
+.mod_list_city .city_top a {
+    margin-right: 3px;
+    padding: 2px;
+}
+.mod_list_city .hot {
+    height: 25px;
+    line-height: 25px;
+}
+.mod_list_city .list_wrap h4 {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.mod_list_city .list_wrap {
+    height: 230px;
+    overflow: auto;
+    width: 550px;
+}
+.mod_list_city .list_wrap .city_cont {
+    width: 530px;
+}
+.mod_list_city .list_wrap .mod_city_list a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px;
+}
+.mod_list_city .list_wrap .mod_city_list .col1 {
+    font-size: 12px;
+    width: 30px;
+}
+.mod_list_city .list_wrap .mod_city_list .col2 {
+    font-size: 12px;
+    width: 500px;
+}
+.mod_list_city .list_wrap .mod_city_list th {
+    text-align: left;
+}
+.mod_list_city .list_wrap .mod_city_list th span {
+    background-color: #dddddd;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 3px;
+    text-align: center;
+    width: 12px;
+}
